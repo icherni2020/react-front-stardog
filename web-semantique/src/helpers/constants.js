@@ -47,7 +47,7 @@ const TableDataAvailabilityStatus = {
 };
 
 module.exports = {
-  dbName: 'web-facebook',
+  dbName: 'database',
   columnData,
   columnSelectors,
   conn,
