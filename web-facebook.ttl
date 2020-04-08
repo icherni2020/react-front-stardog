@@ -1,0 +1,81 @@
+@prefix : <http://api.stardog.com/> .
+@prefix foaf: <http://xmlns.com/foaf/spec/#OnlineChatAccount> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix stardog: <tag:stardog:api:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+
+:User103765761287645 a sioc:User ;
+   sioc:email "bunfztduwp_1585857414@tfbnw.net" ;
+   sioc:subscriber_of :Page105004701169161 ;
+   sioc:account_of :Person103765761287645 ;
+   sioc:moderator_of :Page102733401400354 , :Page106139887714278 .
+:Page105004701169161 a sioc:Forum ;
+   rdfs:label "Sports TV" .
+:Page102733401400354 a sioc:Forum ;
+   rdfs:lablel "Fitness & food" ;
+   rdfs:label "Fitness & food" .
+:Page106139887714278 a sioc:Forum ;
+   rdfs:lablel "Chef" ;
+   rdfs:label "Chef" .
+:Person103765761287645 a <http://xmlns.com/foaf/spec/#OnlineChatAccountPerson> ;
+   rdfs:label 103765761287645 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountname> "Jacob Aldifbffchaac Greenesky" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountknows> :Person10376576128723 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountgender> "male" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountbirthday> "04/07/2001" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountOnlineChatAccount> "bunfztduwp_1585857414@tfbnw.net" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountholdsAccount> :User103765761287645 .
+:User111902120464249 a sioc:User ;
+   sioc:email "fckyvpqixg_1585857422@tfbnw.net" ;
+   sioc:subscriber_of :Page102733401400354 ;
+   sioc:account_of :Person111902120464249 ;
+   sioc:moderator_of :Page105004701169161 , :Page109081777424881 .
+:Page109081777424881 a sioc:Forum ;
+   rdfs:label "Maquillage" .
+:Person111902120464249 a <http://xmlns.com/foaf/spec/#OnlineChatAccountPerson> ;
+   rdfs:label 111902120464249 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountname> "Nancy Aldiccchejgfi Fallersen" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountknows> :Person10376576128723 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountgender> "female" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountbirthday> "04/07/2001" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountOnlineChatAccount> "fckyvpqixg_1585857422@tfbnw.net" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountholdsAccount> :User111902120464249 .
+:User100771481592172 a sioc:User ;
+   sioc:email "hvaqnfqxed_1585863244@tfbnw.net" ;
+   sioc:subscriber_of :Page102733401400354 , :Page100930338251998 , :Page111139103883053 , :Page100342258312164 , :Page110130937318815 , :Page109405827391756 , :Page100657648280023 , :Page106662574336843 , :Page106193727717336 , :Page112064183789929 , :Page104377201234713 , :Page101008378244473 , :Page108345704165733 ;
+   sioc:account_of :Person100771481592172 ;
+   sioc:moderator_of :Page100930338251998 , :Page108345704165733 , :Page104228534583366 .
+:Page100930338251998 a sioc:Forum ;
+   rdfs:label "Escape game" .
+:Page100657648280023 a sioc:Forum ;
+   rdfs:label "Club Volleyball" .
+:Page106662574336843 a sioc:Forum ;
+   rdfs:label "Club Football" .
+:Page108345704165733 a sioc:Forum ;
+   rdfs:label "Jeux vidéos" .
+:Page104228534583366 a sioc:Forum ;
+   rdfs:label "Programmation Java" .
+:Person100771481592172 a <http://xmlns.com/foaf/spec/#OnlineChatAccountPerson> ;
+   rdfs:label 100771481592172 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountname> "Sarah Aldiggifjbaad Riceman" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountknows> :Person10376576128723 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountgender> "female" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountbirthday> "04/07/2001" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountOnlineChatAccount> "hvaqnfqxed_1585863244@tfbnw.net" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountholdsAccount> :User100771481592172 .
+:User113034727017398 a sioc:User ;
+   sioc:email "pcnrvjgkrc_1585863251@tfbnw.net" ;
+   sioc:subscriber_of :Page102733401400354 , :Page100930338251998 , :Page100657648280023 , :Page106662574336843 , :Page112064183789929 , :Page104377201234713 , :Page101008378244473 , :Page108345704165733 , :Page104228534583366 ;
+   sioc:account_of :Person113034727017398 ;
+   sioc:moderator_of :Page100657648280023 , :Page106662574336843 .
+:Person113034727017398 a <http://xmlns.com/foaf/spec/#OnlineChatAccountPerson> ;
+   rdfs:label 113034727017398 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountname> "Matthew Aldicbfadafjf Sharpeson" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountknows> :Person10376576128723 ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountgender> "male" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountbirthday> "04/07/2001" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountOnlineChatAccount> "pcnrvjgkrc_1585863251@tfbnw.net" ;
+   <http://xmlns.com/foaf/spec/#OnlineChatAccountholdsAccount> :User113034727017398 .

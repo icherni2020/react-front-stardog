@@ -1,0 +1,35 @@
+:Account a rdfs:Class .
+
+:Humain a owl:Class ;
+    rdfs:subClassOf :Account .
+
+:Page a owl:Class ;
+    rdfs:subClassOf :Account .
+
+:Ethan a :Humain ;
+    :id 103765761287644 ;
+    :name 'Ethan Aldifbffchaac Greenesky' ;
+    :friends :Jane ;
+    :gender 'Male' ;
+    :email 'bunfztduwp_1585857214@tfbnw.ne';
+    :Page :Chef.
+
+:Jane a :Humain ;
+    :id 10376576128723 ;
+    :name 'Jane Aldifbffchaac Greenesky' ;
+    :friends :Ethan ;
+    :gender 'Female' ;
+    :email 'bunfztduwp_1585857214@tfbnw.ne';
+    :Page :Chef.
+
+:Chef a :Page ;
+    :id 113220706998522 ;
+    :name 'cuisine' ;
+    :Category 'TV show'.
+
+
+
+
+
+
+

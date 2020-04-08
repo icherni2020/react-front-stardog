@@ -1,0 +1,36 @@
+#1 retourne le nombre d'utilisateurs likant la page ":Page113220706998522".
+SELECT ?countUsers (COUNT(DISTINCT ?user) as ?countUsers) WHERE{
+    ?user a sioc:User;
+        sioc:subscriber_of :Page113220706998522.
+}
+#2 retourne le nombre de personnes à avoir des pages
+SELECT ?countUsers (COUNT(DISTINCT ?user) as ?countUsers) WHERE{
+    ?page a sioc:Forum.
+    ?user a sioc:User;
+        sioc:moderator_of ?page.
+}
+#3 retourne le nombre de pages possédées par la personne connectée (ici :User103765761287644)
+SELECT ?countPages (COUNT(DISTINCT ?page) as ?countPages) WHERE{
+    ?page a sioc:Forum.
+    :User103765761287644 sioc:moderator_of ?page.
+}
+#4 retourne le nombre de pages likées par l'individu connecté (ici :User103765761287644)
+SELECT ?countPages (COUNT(DISTINCT ?page) as ?countPages) WHERE{
+    ?page a sioc:Forum.
+    :User103765761287644 sioc:subscriber_of ?page.
+}
+#5 retourne le nombre d'individus renseignés dans la BD
+SELECT ?persons (COUNT(DISTINCT ?person) as ?persons) WHERE{
+    ?person a foaf:Person.
+}
+#6 retourne l'âge de l'individu le plus jeune parmi ceux dans la base de données
+SELECT ?minAge (MIN(?age) as ?minAge) WHERE{
+    ?person a foaf:Person;
+    foaf:age ?age.
+}
+#7 retourne le genre du moderateur de la page :Page113220706998522
+SELECT DISTINCT ?gender WHERE{
+    :Page113220706998522 sioc:has_moderator ?user.
+    ?user sioc:account_of ?person.
+    ?person foaf:gender ?gender.
+}

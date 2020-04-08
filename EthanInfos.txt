@@ -1,0 +1,16 @@
+#Ethan
+:User103765761287644 a sioc:User;
+	sioc:email 'bunfztduwp_1585857214@tfbnw.ne'.
+:Page113220706998522 a sioc:Forum ;
+	rdfs:label ‘cuisine’.
+:Person103765761287644 a foaf:Person ;
+    rdfs:label 103765761287644 ;
+    foaf:name 'Ethan Aldifbffchaac Greenesky' ;
+    foaf:knows :Person10376576128723 ;	#Jane
+    foaf:gender 'male' ;
+    foaf:OnlineChatAccount 'bunfztduwp_1585857214@tfbnw.ne';
+    foaf:holdsAccount :User103765761287644.
+:User103765761287644 sioc:account_of :Person103765761287644;
+    sioc:moderator_of  :Page113220706998522 ;
+
+
