@@ -24,7 +24,7 @@ ethaninfo.txt : un exemple d'utilisateur sous formet de RDF, ce fichier nous a p
 
 les données qu'on recoit de l'api Facebook en triplet RDF
 
-3) après avoir pris connaissance de tous ces documents. on ouvre le terminal et on se dérige au dossier web-semantique où on va 
+3) après avoir pris connaissance de tous ces documents. ouvrez le terminal et on dirigez vous au dossier web-semantique où on va 
 
 lancer toutes les commandes.
 
